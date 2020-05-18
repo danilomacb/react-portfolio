@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(30, 30, 30);
+  color: rgb(200, 200, 200);
+}
+
+a {
+  color: rgb(200, 200, 200) !important;
+}
+
+a:hover {
+  color: rgb(50, 200, 150) !important;
+}
+
+#my-image {
+  max-width: 200px;
+}
+
+#my-presentation {
+  border: 1px solid rgb(50, 200, 150);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#my-navbar {
+  border-bottom: 1px solid rgb(50, 200, 150);
+  background: rgb(20, 20, 20);
+}
+
+#my-navbar:hover {
+  color: rgb(50, 200, 150) !important;
+}
