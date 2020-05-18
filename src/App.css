@@ -32,6 +32,6 @@ a:hover {
 
 .my-card-description {
   display: inline-block;
-  margin: 0;
+  margin: 0 5px 0 0;
   font-weight: bold;
 }

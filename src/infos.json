@@ -1,0 +1,40 @@
+{
+  "certificates": [
+    {
+      "name": "HTML5 e CSS3 - B7Web",
+      "img": "Html5ECss3-B7web.jpg",
+      "date": "26/02/2019",
+      "code": "00009717",
+      "link": "https://b7web.com.br/certificado/"
+    },
+    {
+      "name": "Fundamentos de Git - B7Web",
+      "img": "FundamentosDeGit-B7web.jpg",
+      "date": "13/02/2019",
+      "code": "00009524",
+      "link": "https://b7web.com.br/certificado/"
+    },
+    {
+      "name": "Javascript Básico - B7Web",
+      "img": "JavascriptBasico-B7web.jpg",
+      "date": "06/02/2019",
+      "code": "00009431",
+      "link": "https://b7web.com.br/certificado/"
+    },
+    {
+      "name": "Introdução ao Framework Bootstrap - Udemy",
+      "img": "IntroducaoAoFrameworkBootstrap-Udemy.jpg",
+      "date": "24/08/2018",
+      "code": "DTGNSW",
+      "link": "http://www.diegomariano.com/certificados"
+    },
+    {
+      "name": "Curso de HTML5 - Curso em Vídeo",
+      "img": "CursoDeHtml5-CursoEmVideo.jpg",
+      "date": "11/03/2018",
+      "code": "4110-992-156234",
+      "link": "http://www.cursoemvideo.com/validador/"
+    }
+  ],
+  "projects": []
+}
