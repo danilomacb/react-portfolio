@@ -29,3 +29,9 @@ a:hover {
 #my-navbar:hover {
   color: rgb(50, 200, 150) !important;
 }
+
+.my-card-description {
+  display: inline-block;
+  margin: 0;
+  font-weight: bold;
+}
