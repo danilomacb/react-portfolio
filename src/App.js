@@ -7,6 +7,7 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import ContentSelector from "./components/ContentSelector";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/artigos" exact component={ContentSelector} />
         <Route path="/certificados" exact component={ContentSelector} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

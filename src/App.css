@@ -3,6 +3,13 @@ body {
   color: rgb(200, 200, 200);
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 a {
   color: rgb(200, 200, 200) !important;
 }
@@ -38,4 +45,14 @@ a:hover {
 
 .my-card-img {
   cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid rgb(50, 200, 150);
+  background: rgb(20, 20, 20);
+}
+
+.contact {
+  padding: 20px;
+  display: inline-block;
 }
