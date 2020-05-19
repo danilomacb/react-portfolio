@@ -8,6 +8,12 @@ function MyCard({ content }) {
         <Card.Img src={process.env.PUBLIC_URL + "/images/" + content.img} />
         <Card.Body>
           <Card.Title className="text-center">{content.name}</Card.Title>
+          {content.technologies ? (
+            <>
+              <p className="my-card-description">Tecnologias:</p> {content.technologies}
+            </>
+          ) : null}
+          {content.description ? <p>{content.description}</p> : null}
           {content.date ? (
             <>
               <p className="my-card-description">Data de Emissão:</p>
@@ -18,12 +24,6 @@ function MyCard({ content }) {
             <>
               <p className="my-card-description">Código de Validação:</p>
               {content.code} <br />
-            </>
-          ) : null}
-          {content.description ? <p>{content.description}</p> : null}
-          {content.technologies ? (
-            <>
-              <p className="my-card-description">Tecnologias:</p> {content.technologies}
             </>
           ) : null}
           {content.link ? (

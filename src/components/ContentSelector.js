@@ -8,10 +8,10 @@ function ContentSelector({ match }) {
   return (
     <Container className="my-5">
       <Row>
-        {match.path === "/certificados" ? (
+        {match.path === "/projetos" ? (
           <>
-            {infos.certificates.map((certificate) => (
-              <MyCard key={certificate.name} content={certificate} />
+            {infos.projects.map((project) => (
+              <MyCard key={project.name} content={project} />
             ))}
           </>
         ) : null}
@@ -24,10 +24,10 @@ function ContentSelector({ match }) {
           </>
         ) : null}
 
-        {match.path === "/projetos" ? (
+        {match.path === "/certificados" ? (
           <>
-            {infos.projects.map((project) => (
-              <MyCard key={project.name} content={project} />
+            {infos.certificates.map((certificate) => (
+              <MyCard key={certificate.name} content={certificate} />
             ))}
           </>
         ) : null}
