@@ -5,9 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Articles from "./components/Articles";
-import Certificates from "./components/Certificates";
+import ContentSelector from "./components/ContentSelector";
 
 function App() {
   return (
@@ -15,9 +13,9 @@ function App() {
       <Navigation />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/projetos" exact component={Projects} />
-        <Route path="/artigos" exact component={Articles} />
-        <Route path="/certificados" exact component={Certificates} />
+        <Route path="/projetos" exact component={ContentSelector} />
+        <Route path="/artigos" exact component={ContentSelector} />
+        <Route path="/certificados" exact component={ContentSelector} />
       </Switch>
     </BrowserRouter>
   );
