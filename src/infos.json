@@ -43,5 +43,13 @@
       "description": "Comparação de consumo de memória RAM em diferentes distros baseadas em Ubuntu.",
       "link": "https://medium.com/@danilomacb/consumo-de-mem%C3%B3ria-ram-em-distros-ubuntu-a124549469b9"
     }
+  ],
+  "projects": [
+    {
+      "name": "JaVi?!",
+      "img": "projects/javi.gif",
+      "technologies": "Node, MongoDB, React, HTML, CSS, JavaScript.",
+      "link": "https://github.com/danilomacb/JaVi"
+    }
   ]
 }

@@ -21,6 +21,11 @@ function MyCard({ content }) {
             </>
           ) : null}
           {content.description ? <p>{content.description}</p> : null}
+          {content.technologies ? (
+            <>
+              <p className="my-card-description">Tecnologias:</p> {content.technologies}
+            </>
+          ) : null}
           {content.link ? (
             <>
               <p className="my-card-description">Link:</p>
