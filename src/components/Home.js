@@ -10,14 +10,11 @@ function Home() {
       </div>
       <div id="my-presentation" className="my-5">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec nisl quis augue
-          rhoncus tempor in quis ipsum. Vivamus placerat efficitur tincidunt. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris non erat ut
-          magna vulputate maximus nec id odio. Suspendisse imperdiet lectus ullamcorper, bibendum
-          nisl ut, efficitur ligula. Nam tristique elementum augue eget porttitor. Quisque nec odio
-          tempus, euismod augue vitae, venenatis est. Curabitur malesuada eget ex id tincidunt.
-          Nulla pellentesque nunc at ipsum ultricies interdum. Sed feugiat pellentesque risus, id
-          rhoncus est egestas vel.
+          Olá, seja bem vindo ao meu site portfólio. Eu sou desenvolvedor web full-stack júnior, com
+          foco em React no front-end e Node no back-end. Sou formado em Ciência da Computação e
+          apaixonado por tecnologia, estou sempre aprendendo coisas novas para me atualizar e me
+          aprimorar. Também tenho interesse em Linux, gosto de testar distros diferentes,
+          principalmente as baseadas em Ubuntu.
         </p>
       </div>
     </Container>
