@@ -1,21 +1,34 @@
 import React from "react";
 import { Col, Card } from "react-bootstrap";
 
-function MyCard({ certificate }) {
+function MyCard({ content }) {
   return (
     <Col sm="12" md="6" lg="4" className="my-3">
       <Card bg="dark" text="light">
-        <Card.Img src={process.env.PUBLIC_URL + "/images/certificates/" + certificate.img} />
+        <Card.Img src={process.env.PUBLIC_URL + "/images/" + content.img} />
         <Card.Body>
-          <Card.Title className="text-center">{certificate.name}</Card.Title>
-          <p className="my-card-description">Data de Emissão:</p>
-          {certificate.date} <br />
-          <p className="my-card-description">Código de Validação:</p>
-          {certificate.code} <br />
-          <p className="my-card-description">Validar:</p>
-          <a href={certificate.link} target="blank">
-            {certificate.link}
-          </a>
+          <Card.Title className="text-center">{content.name}</Card.Title>
+          {content.date ? (
+            <>
+              <p className="my-card-description">Data de Emissão:</p>
+              {content.date} <br />
+            </>
+          ) : null}
+          {content.code ? (
+            <>
+              <p className="my-card-description">Código de Validação:</p>
+              {content.code} <br />
+            </>
+          ) : null}
+          {content.description ? <p>{content.description}</p> : null}
+          {content.link ? (
+            <>
+              <p className="my-card-description">Link:</p>
+              <a href={content.link} target="blank">
+                {content.link}
+              </a>
+            </>
+          ) : null}
         </Card.Body>
       </Card>
     </Col>
