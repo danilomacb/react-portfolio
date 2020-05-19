@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-image-lightbox/style.css";
 
 import "./App.css";
 import Navigation from "./components/Navigation";
