@@ -1,21 +1,41 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
     <footer className="text-center">
       <div className="contact">
-        <a href="https://github.com/danilomacb">github.com/danilomacb</a>
+        <a href="https://github.com/danilomacb">
+          <FontAwesomeIcon icon={faGithub} size="lg" className="mr-2" />
+          github.com/danilomacb
+        </a>
       </div>
       <div className="contact">
-        <a href="https://www.linkedin.com/in/danilomacb/">linkedin.com/in/danilomacb</a>
+        <a href="https://www.linkedin.com/in/danilomacb/">
+          <FontAwesomeIcon icon={faLinkedin} size="lg" className="mr-2" />
+          linkedin.com/in/danilomacb
+        </a>
       </div>
       <div className="contact">
-        <a href="https://www.facebook.com/danilomacb/">facebook.com/danilomacb</a>
+        <a href="https://www.facebook.com/danilomacb/">
+          <FontAwesomeIcon icon={faFacebook} size="lg" className="mr-2" />
+          facebook.com/danilomacb
+        </a>
       </div>
       <div className="contact">
-        <a href="https://twitter.com/danilomacb">twitter.com/danilomacb</a>
+        <a href="https://twitter.com/danilomacb">
+          <FontAwesomeIcon icon={faTwitter} size="lg" className="mr-2" />
+          twitter.com/danilomacb
+        </a>
       </div>
-      <div className="contact">danilo.macb@gmail.com</div>
+      <div className="contact">
+        <a href="mailto:danilo.macb@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} size="lg" className="mr-2" />
+          danilo.macb@gmail.com
+        </a>
+      </div>
     </footer>
   );
 }
