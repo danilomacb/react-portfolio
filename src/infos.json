@@ -3,8 +3,14 @@
     {
       "name": "JaVi?!",
       "img": "projects/javi.gif",
-      "technologies": "Node, MongoDB, React, HTML, CSS, JavaScript.",
+      "technologies": "Node, MongoDB, React.",
       "link": "https://github.com/danilomacb/JaVi"
+    },
+    {
+      "name": "Semana OmniStack 10",
+      "img": "projects/semana-omnistack-10.gif",
+      "technologies": "Node, MongoDB, React, React Native.",
+      "link": "https://github.com/danilomacb/semanaomnistack10"
     }
   ],
   "articles": [
