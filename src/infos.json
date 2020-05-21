@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "Memebot",
+      "img": "projects/memebot.gif",
+      "technologies": "Node, MongoDB, React.",
+      "link": "https://memebot-oficial.netlify.app/"
+    },
+    {
       "name": "JaVi?!",
       "img": "projects/javi.gif",
       "technologies": "Node, MongoDB, React.",
