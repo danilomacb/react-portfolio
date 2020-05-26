@@ -21,6 +21,12 @@
   ],
   "articles": [
     {
+      "name": "Comparando React com HTML",
+      "img": "articles/comparando-react-com-html.png",
+      "description": "Comparando o mesmo projeto em React e HTML, para explicar como funciona a componentização.",
+      "link": "https://medium.com/@danilomacb/comparando-react-com-html-7eda91ee408a"
+    },
+    {
       "name": "Consumo de Memória RAM em Distros Ubuntu",
       "img": "articles/ubuntu.png",
       "description": "Comparação de consumo de memória RAM em diferentes distros baseadas em Ubuntu.",
