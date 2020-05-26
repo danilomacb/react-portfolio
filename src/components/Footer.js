@@ -6,7 +6,7 @@ import { faGithub, faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-b
 function Footer() {
   return (
     <footer className="text-center">
-      <ul className="m-0">
+      <ul className="p-0 m-0">
         <li className="contact">
           <a href="https://github.com/danilomacb" target="blank">
             <FontAwesomeIcon icon={faGithub} size="lg" className="mr-2" />
