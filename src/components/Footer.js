@@ -6,36 +6,38 @@ import { faGithub, faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-b
 function Footer() {
   return (
     <footer className="text-center">
-      <div className="contact">
-        <a href="https://github.com/danilomacb" target="blank">
-          <FontAwesomeIcon icon={faGithub} size="lg" className="mr-2" />
-          github.com/danilomacb
-        </a>
-      </div>
-      <div className="contact">
-        <a href="https://www.linkedin.com/in/danilomacb/" target="blank">
-          <FontAwesomeIcon icon={faLinkedin} size="lg" className="mr-2" />
-          linkedin.com/in/danilomacb
-        </a>
-      </div>
-      <div className="contact">
-        <a href="https://www.facebook.com/danilomacb/" target="blank">
-          <FontAwesomeIcon icon={faFacebook} size="lg" className="mr-2" />
-          facebook.com/danilomacb
-        </a>
-      </div>
-      <div className="contact">
-        <a href="https://twitter.com/danilomacb" target="blank">
-          <FontAwesomeIcon icon={faTwitter} size="lg" className="mr-2" />
-          twitter.com/danilomacb
-        </a>
-      </div>
-      <div className="contact">
-        <a href="mailto:danilo.macb@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} size="lg" className="mr-2" />
-          danilo.macb@gmail.com
-        </a>
-      </div>
+      <ul className="m-0">
+        <li className="contact">
+          <a href="https://github.com/danilomacb" target="blank">
+            <FontAwesomeIcon icon={faGithub} size="lg" className="mr-2" />
+            github.com/danilomacb
+          </a>
+        </li>
+        <li className="contact">
+          <a href="https://www.linkedin.com/in/danilomacb/" target="blank">
+            <FontAwesomeIcon icon={faLinkedin} size="lg" className="mr-2" />
+            linkedin.com/in/danilomacb
+          </a>
+        </li>
+        <li className="contact">
+          <a href="https://www.facebook.com/danilomacb/" target="blank">
+            <FontAwesomeIcon icon={faFacebook} size="lg" className="mr-2" />
+            facebook.com/danilomacb
+          </a>
+        </li>
+        <li className="contact">
+          <a href="https://twitter.com/danilomacb" target="blank">
+            <FontAwesomeIcon icon={faTwitter} size="lg" className="mr-2" />
+            twitter.com/danilomacb
+          </a>
+        </li>
+        <li className="contact">
+          <a href="mailto:danilo.macb@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} size="lg" className="mr-2" />
+            danilo.macb@gmail.com
+          </a>
+        </li>
+      </ul>
     </footer>
   );
 }
