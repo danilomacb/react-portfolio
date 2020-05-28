@@ -13,6 +13,12 @@
       "link": "https://github.com/danilomacb/JaVi"
     },
     {
+      "name": "Simple CRUD with TypeScript, Node, React and MongoDB",
+      "img": "projects/simpleCrudTNRM.gif",
+      "technologies": "TypeScript, Node, React e MongoDB",
+      "link": "https://github.com/danilomacb/simple-crud-typescript-node-react-mongo"
+    },
+    {
       "name": "Simple CRUD with Node, React and MongoDB",
       "img": "projects/simpleCrudNRM.gif",
       "technologies": "JavaScript, Node, React e MongoDB",
