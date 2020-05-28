@@ -6,6 +6,7 @@ My portfolio page, that contains my projects, articles, and certificates. Hosted
 
 # Technologies
 
+- Language: JavaScript
 - Front-end: React
 
 # Instalation
