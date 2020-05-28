@@ -3,19 +3,19 @@
     {
       "name": "Memebot",
       "img": "projects/memebot.gif",
-      "technologies": "Node, MongoDB e React.",
+      "technologies": "JavaScript, Node, MongoDB e React.",
       "link": "https://memebot-oficial.netlify.app/"
     },
     {
       "name": "JaVi?!",
       "img": "projects/javi.gif",
-      "technologies": "Node, MongoDB e React.",
+      "technologies": "JavaScript, Node, MongoDB e React.",
       "link": "https://github.com/danilomacb/JaVi"
     },
     {
       "name": "Simple CRUD with Node, React and MongoDB",
       "img": "projects/simpleCrudNRM.gif",
-      "technologies": "Node, React e MongoDB",
+      "technologies": "JavaScript, Node, React e MongoDB",
       "link": "https://github.com/danilomacb/simple-crud-node-react-mongo"
     }
   ],
