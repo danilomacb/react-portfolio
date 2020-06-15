@@ -23,6 +23,12 @@
       "img": "projects/simpleCrudNRM.gif",
       "technologies": "JavaScript, Node, React e MongoDB",
       "link": "https://github.com/danilomacb/simple-crud-node-react-mongo"
+    },
+    {
+      "name": "Caralivro",
+      "img": "projects/caralivro.png",
+      "technologies": "HTML, CSS e JavaScript",
+      "link": "https://github.com/danilomacb/caralivro-login-clone"
     }
   ],
   "articles": [
