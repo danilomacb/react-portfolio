@@ -8,6 +8,7 @@ import Navigation from "./components/Navigation";
 import Home from "./components/Home";
 import ContentSelector from "./components/ContentSelector";
 import Footer from "./components/Footer";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Navigation />
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/projetos" exact component={ContentSelector} />
+        <Route path="/projetos" exact component={Projects} />
         <Route path="/artigos" exact component={ContentSelector} />
         <Route path="/certificados" exact component={ContentSelector} />
       </Switch>
