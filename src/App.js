@@ -5,9 +5,9 @@ import "react-image-lightbox/style.css";
 
 import "./App.css";
 import Navigation from "./components/Navigation";
-import Home from "./components/Home";
 import ContentSelector from "./components/ContentSelector";
 import Footer from "./components/Footer";
+import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 
 function App() {
