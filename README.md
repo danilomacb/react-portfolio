@@ -1,6 +1,6 @@
 # About
 
-My portfolio page, that contains my projects, articles, and certificates. Hosted on:
+My portfolio page, that contains my projects and articles, Hosted on:
 
 [https://danilomacb.netlify.app/](https://danilomacb.netlify.app/)
 

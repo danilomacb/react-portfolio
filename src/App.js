@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Articles from "./pages/Articles";
-import Certificates from "./pages/Certificates";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/projetos" exact component={Projects} />
         <Route path="/artigos" exact component={Articles} />
-        <Route path="/certificados" exact component={Certificates} />
       </Switch>
       <Footer />
     </BrowserRouter>
